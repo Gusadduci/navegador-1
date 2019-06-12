@@ -1,0 +1,689 @@
+/* Header */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    width: 100%;
+    margin: 0 auto;
+}
+.header-title { 
+    text-align: center;
+    font-weight: bold;     /* negruita */
+    text-transform: capitalize;    /* priemero en mayus */
+    font-size: 47px;
+    color: inherit;
+    text-decoration: none;
+
+}
+.header-nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 ;
+    padding-bottom: 40px;
+    
+}
+
+.header-nav ul {
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.header-nav li {
+    font-style: italic;
+    list-style: none;
+    color: #5d5d5d;
+    padding: 8px 17px;
+    border-radius: 3px;
+}
+
+.header-nav li:hover {
+    background-color: #d9d9d9;
+}
+.header-nav li.activo{
+    background-color: #d52349;
+    color: white;
+
+}
+.header-imagen-container {
+    height: 380px;
+    background-image: url(https://www.laps4.com/wp-content/uploads/2018/12/reportada-150.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.header-imagen-container-text {
+    background-color: rgba(34, 30, 31, 0.88);
+    padding: 15px 20px 25px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.header-imagen-container-text span {
+    color: #d52349;
+}
+
+.header-info-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.header-info-container-item {
+  
+    width: 300px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header-info-container-item h3{
+    margin-top: 75px;
+}
+
+
+
+.header-info-container-item h4 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.header-info-container-item h4 {
+    margin-top: 75px;
+}
+
+.header-info-container-item h5 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.header-info-container-item h5 {
+    margin-top: 75px;
+}
+
+
+.header-info-button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+
+.header-info-button-container .header-info-button {
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 80px ;
+    border-style: none;
+    font-size: 24px;
+
+}
+.header-info-button-container .header-info-button:hover {
+    cursor: pointer;
+    background: #252122;
+}
+
+
+.header-info-button-container .header-info-button:first-child {
+    margin-right: 20px;
+    background-color: #d52349;
+}
+
+
+.header-info-button:first-child:hover {
+    background: #e53359;
+    cursor: pointer;
+}
+
+.header-info-container-item .cazador {
+   
+    padding: 80px 60px;
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/2/2a/MHW-Emblema_Primera_Flota.png/revision/latest/scale-to-width-down/125?cb=20171216161207&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-info-container-item .armas {
+
+    padding: 80px 60px;
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/3/36/Blas%C3%B3n_del_Gremio.png/revision/latest/scale-to-width-down/150?cb=20160327212908&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.header-info-container-item .materiales {
+
+    padding: 80px 60px;
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/c/c2/MHW-Emblema.png/revision/latest/scale-to-width-down/171?cb=20170614160928&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+/* main */
+
+
+
+.main { 
+    border-top: solid 1px #ccc;
+    background-color: #f7f7f7;
+    padding: 30px 0 0 30px;
+    margin: 0 auto;
+    
+}
+
+.main-book {
+    top: 1em;
+}
+
+header.jump {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top: solid 1px #ccc;
+    top: 25px;
+    
+}
+.jump h1 {
+    background: #f7f7f7;
+    position: relative;
+    top: -0.65em;
+    display: inline;
+    margin: 0;
+    padding: 0 1em 0 1em;
+    padding-right: 40px;
+}
+
+
+.main-book-prim {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-book-prim-item h1 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.main-book-prim-item h1 {
+    margin-top: 50px;
+}
+
+.main-book-prim-item h2 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.main-book-prim-item h2 {
+    margin-top: 50px;
+}
+
+.main-book-prim-item h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.main-book-prim-item h3 {
+    margin-top: 50px;
+}
+
+.main-book-prim-item {
+    width: 280px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px #ccc;
+}
+
+.main-book-prim-item span {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    color: #5d5d5d;
+    font-size: 14pt;
+    line-height: 1.75em;
+}
+
+
+.wyvern {
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/3/3e/MHGU-Render_Tengen_Mizutsune_001.png/revision/latest/scale-to-width-down/300?cb=20161208115003&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+}
+.wyvern {
+    display: block;
+}
+
+.weapons {
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunter/images/3/36/MH4-Light_Bowgun_Equipment_Render_001.png/revision/latest/scale-to-width-down/200?cb=20140122011520);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    }
+.weapons {
+    display: block;
+}
+
+.materials {
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/a/a0/MHW-Maestra_de_la_3.%C2%AA_Flota.png/revision/latest/scale-to-width-down/200?cb=20180203213612&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    } 
+.materials {
+    display: block;
+}
+
+/* parte 2 */
+
+.main-book-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #252122;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 1.1em;
+    padding: 0.65em 1.5em 0.65em 1.5em;
+    text-align: center;
+    
+}
+.main-book-button:hover {
+    cursor: pointer;
+    background: #5d5d5d;
+
+}
+
+
+.main-book-butto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #d52349;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 1.1em;
+    padding: 0.65em 1.5em 0.65em 1.5em;
+    text-align: center;
+    margin-right: 20px;
+}
+.main-book-butto:hover {
+    cursor: pointer;
+    background: #e53359;
+
+}
+
+
+
+.main-book-prim-item h4 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.main-book-prim-item h4 {
+    margin-top: 50px;    
+}
+.main-book-prim-item h5 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.main-book-prim-item h5 {
+    margin-top: 50px;
+}
+.main-book-prim-item h6 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.main-book-prim-item h6 {
+    margin-top: 50px;
+}
+
+
+.inform{
+
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/9/94/MHW-Emblema_Segunda_Flota.png/revision/latest/scale-to-width-down/150?cb=20171216161139&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+}
+.inform{
+    display: block;
+}
+
+
+.felynes {
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/c/c3/MHW-Emblema_Cuarta_Flota.png/revision/latest/scale-to-width-down/127?cb=20171216161327&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    }  
+.felynes {
+    display: block;
+}
+
+
+.hunters {
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/1/1c/MHW-Emblema_Quinta_Flota.png/revision/latest/scale-to-width-down/121?cb=20171216161357&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    }
+.hunters {
+    display: block;
+}
+
+/* maine */
+.maine { 
+    background-color: #f7f7f7;
+    
+}
+.maine header{
+    text-align: center
+}
+
+.maine-dos {
+    margin-top: 40px;
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.maine-dos-item {
+    width: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px #ccc;
+}
+.maine-dos-item-cont {
+    padding: 0px 30px;
+}
+.botton {
+    display: flex;
+    
+}
+
+.maine-dos-item h2 {
+    font-size: 2em;
+    margin: .67em 0;
+    
+}
+.maine-dos-item span {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    color: #5d5d5d;
+    font-size: 14pt;
+    line-height: 1.75em;
+    margin-bottom: 50px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.maine-dos-item p {
+    display: block;
+    font-style: italic;
+    margin: 0.5em 0 0 0;
+    padding-bottom: 0.5em;
+}
+.graphic {
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/5/5e/MH3-Intro_Lagiacrus_vs_Rathalos.png/revision/latest/scale-to-width-down/500?cb=20170430112301&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    height: 200px;
+    padding-top: 0px;
+    }
+.graphic {
+    display: block;
+}
+
+
+.image {
+    background-image: url(https://vignette.wikia.nocookie.net/monsterhunterespanol/images/3/30/MHOL-Rajang_vs_Kirin.png/revision/latest/scale-to-width-down/500?cb=20170430112546&path-prefix=es);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 100px;
+    height: 200px;
+    padding-top: 0px;
+    }
+.image {
+    display: block;
+}
+
+/* footer */
+
+.footer {
+    background-color:  #252122;
+    height: 1300px;
+    font-weight: 700;
+}
+.footer-one {
+    padding: 40px 170px;
+    display: flex;
+    color: white;
+}
+
+.text-one {
+    width: 100%;
+}
+
+.text-one h1{
+    
+    font-size: 30px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer-one-column {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-one-column-item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px #333232;
+    height: 100px;
+    box-sizing: content-box;
+    justify-items: center;
+    align-items: center;
+    width: 700px; 
+}
+
+.footer-one-column-item.-ulti {
+    border-bottom: none;
+}
+
+.text {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.footer-one-column-item-flech {
+    box-sizing: border-box;
+    height: 45px;
+    font-size: 18px;
+    background-color: hsl(347, 72%, 49%);
+    box-sizing: inherit;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 7px 7px 5px 20px;
+    margin-block-end: 10px;
+    position: relative;
+    width: 30px;
+    margin-right: 35px;
+    
+
+}
+
+.footer-one-column-item-flech:after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    border-bottom: 28px solid transparent;
+    border-top: 28px solid transparent;
+    border-left: 20px solid hsl(347, 72%, 49%) ;
+}
+
+
+.text span {
+    font-weight: 100;
+    color: #858484;
+    font-weight: normal;
+
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.footer-one-item h1{
+    color:white;
+}
+
+.main-book-button.-red {
+    background-color: hsl(347, 72%, 49%);
+    margin: 0;
+    margin-top: 35px;
+    border: 0;
+
+}
+
+.main-book-button.-red:hover {
+    cursor: pointer;
+    background: #e53359;
+
+}
+
+.fotito {
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic10.jpg);
+    height: 200px;
+    margin-bottom: 30px;
+}
+.footer-one-item span {
+    line-height: 30px;
+}
+
+.footer-one-item span {
+    color: #858484;
+}
+
+
+
+
+/* footer dos */
+.footer-two {
+    padding: 40px 170px;
+    display: flex;
+    background-color: #252122;
+}
+
+.footer-two-column-titel {
+    color:white;
+}
+
+.footer-two-column-textos{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.footer-two-column-textos a{
+    color: #858484;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #333232;
+    padding-bottom: 25px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.iconos {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.fab.fa-facebook {
+    color: rgb(17, 87, 192);
+}
+
+.fab.fa-firefox {
+    color: rgba(233, 138, 14, 0.884);
+}
+
+.fab.fa-playstation {
+    color: blue;
+}
+
+.fab.fa-twitch {
+    color:rgb(116, 45, 182)
+}
+
+.fab.fa-twitter {
+    color: lightblue;
+}
+
+.parametros {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #333232;
+
+}
+.parametros a{
+    border: 0;
+}
+
+.parametros h1 {
+    margin-right: 30px;
+    width: 100px;
+    font-size: 18px;
+}
+.footer-two-item {
+ color: white;
+ height: 400px;
+ width: 300px;
+}
+.footer-two-item span {
+    color: #858484;
+    font-size: 14px;
+  
+}
+
+.footer-two-item span {
+    line-height: 30px;
+}
+
+.parametros h1 {
+    margin-top: 0;
+}
